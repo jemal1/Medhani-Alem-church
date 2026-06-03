@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EEPCFE – Events</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #0b1a33;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 8px;
+      opacity: 0.8;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      color: #555;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .event-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      border: 1px solid #e5e7eb;
+    }
+
+    .event-tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .event-title {
+      font-size: 1.2rem;
+      margin: 5px 0 10px;
+      font-weight: bold;
+      color: #0b1a33;
+    }
+
+    .event-meta {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .event-meta span {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .event-description {
+      font-size: 0.9rem;
+      color: #444;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .event-list {
+      padding-left: 18px;
+      margin-bottom: 12px;
+      color: #444;
+    }
+
+    .event-footer {
+      font-size: 0.8rem;
+      color: #666;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0b1a33;
+      color: #ccc;
+      margin-top: 40px;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>EEPCFE Events</h1>
+  <p>European Eritrean Pentecostal Churches Fellowship – Conferences, Retreats & Gatherings</p>
+</header>
+
+<div class="container">
+  <div class="section-title">Upcoming Events</div>
+
+  <div class="events-grid">
+
+    <!-- Event 1 -->
+    <div class="event-card">
+      <div class="event-tag">Conference</div>
+      <div class="event-title">Pan-European Youth Conference</div>
+      <div class="event-meta">
+        <span><strong>Date:</strong> 18–20 July 2026</span>
+        <span><strong>Location:</strong> Frankfurt, Germany</span>
+      </div>
+      <div class="event-description">
+        A three-day gathering for Eritrean youth across Europe focused on worship, teaching, and fellowship.
+      </div>
+      <ul class="event-list">
+        <li>Worship & prayer</li>
+        <li>Bible teaching</li>
+        <li>Youth fellowship</li>
+      </ul>
+      <div class="event-footer">
+        Contact your local youth leader for registration details.
+      </div>
+    </div>
+
+    <!-- Event 2 -->
+    <div class="event-card">
+      <div class="event-tag">Retreat</div>
+      <div class="event-title">Pastors & Leaders Retreat</div>
+      <div class="event-meta">
+        <span><strong>Date:</strong> 26–28 September 2026</span>
+        <span><strong>Location:</strong> London, United Kingdom</span>
+      </div>
+      <div class="event-description">
+        A retreat for pastors and ministry leaders focused on prayer, refreshing, and strategic planning.
+      </div>
+      <ul class="event-list">
+        <li>Leadership sessions</li>
+        <li>Prayer & intercession</li>
+        <li>Vision planning</li>
+      </ul>
+      <div class="event-footer">
+        Attendance by invitation through local church leadership.
+      </div>
+    </div>
+
+    <!-- Event 3 -->
+    <div class="event-card">
+      <div class="event-tag">Online</div>
+      <div class="event-title">All-Europe Night of Prayer</div>
+      <div class="event-meta">
+        <span><strong>Date:</strong> 6 December 2026</span>
+        <span><strong>Location:</strong> Online Livestream</span>
+      </div>
+      <div class="event-description">
+        An overnight prayer gathering connecting EEPCFE churches across Europe.
+      </div>
+      <ul class="event-list">
+        <li>Live worship</li>
+        <li>Prayer from multiple nations</li>
+        <li>Unity & revival focus</li>
+      </ul>
+      <div class="event-footer">
+        Streaming link will be shared through local churches.
+      </div>
+    </div>
+
+    <!-- Event 4 -->
+    <div class="event-card">
+      <div class="event-tag">Conference</div>
+      <div class="event-title">Women’s Ministry Conference</div>
+      <div class="event-meta">
+        <span><strong>Date:</strong> 9–11 April 2027</span>
+        <span><strong>Location:</strong> Stockholm, Sweden</span>
+      </div>
+      <div class="event-description">
+        A conference for women across EEPCFE churches focused on teaching, worship, and fellowship.
+      </div>
+      <ul class="event-list">
+        <li>Teaching & testimonies</li>
+        <li>Prayer & worship</li>
+        <li>Women’s fellowship</li>
+      </ul>
+      <div class="event-footer">
+        Registration details will be shared through local women’s ministry leaders.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © <span id="year"></span> EEPCFE – All Rights Reserved
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
